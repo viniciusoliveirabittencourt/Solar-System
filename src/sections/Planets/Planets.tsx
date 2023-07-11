@@ -1,6 +1,7 @@
 function Planets() {
   return (
-    <section></section>
+    <section>
+    </section>
   )
 }
 
