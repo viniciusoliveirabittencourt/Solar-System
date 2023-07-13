@@ -1,4 +1,4 @@
-type Planets =
+export type Planets =
   | "Mercúrio"
   | "Vênus"
   | "Terra"
