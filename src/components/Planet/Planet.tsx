@@ -1,4 +1,5 @@
 import { Planets } from '../../data'
+import './Planet.css'
 
 interface props {
   planetName: Planets
@@ -6,7 +7,7 @@ interface props {
 
 function Planet({ planetName }: props) {
   return (
-    <div>
+    <div className='box-planetas'>
       <img alt={ `Foto do planeta ${planetName}` } src={ `/${planetName}.png` } />
       <p>{ `${planetName}` }</p>
     </div>
