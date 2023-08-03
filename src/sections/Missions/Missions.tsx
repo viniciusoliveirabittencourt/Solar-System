@@ -1,9 +1,12 @@
 import Mission from "../../components/Mission/Mission"
+import { Mission as typeMission, missões } from "../../data"
 
 function Missions() {
   return (
     <section id="section-missoes">
-      <Mission />
+      {
+        missões.map((e: typeMission) => <Mission interStelarMission={ e } />)
+      }
     </section>
   )
 }

@@ -21,7 +21,7 @@ export const planetas: Planets[] = [
 
 type thingsInSpace = Planets | "Lua" | "Interestelar" | "Órbita Terrestre";
 
-type Mission = {
+export type Mission = {
   name: string;
   year: number;
   country: string;
