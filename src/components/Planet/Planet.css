@@ -1,11 +1,16 @@
 .box-planetas {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 12.5vw;
+  height: 180px;
 }
 
 .box-planetas img {
   max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.box-planetas p {
+  align-self: center;
 }

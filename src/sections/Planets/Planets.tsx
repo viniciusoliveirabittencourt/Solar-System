@@ -1,13 +1,17 @@
 import Planet from "../../components/Planet/Planet"
 import { planetas } from "../../data"
+import './Planets.css'
 
 function Planets() {
   return (
-    <section>
+    <section id="section-planetas">
       <h1>PLANETAS</h1>
-      {
-        planetas.map((e) => <Planet planetName={ e } />)
-      }
+      <div id="line"></div>
+      <div id="container-planetas">
+        {
+          planetas.map((e) => <Planet planetName={ e } />)
+        }
+      </div>
     </section>
   )
 }
