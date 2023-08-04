@@ -4,6 +4,7 @@
   border: 1px solid #FFF;
   background: rgba(24, 26, 37, 0.50);
   mix-blend-mode: hard-light;
+  margin: 20px 0;
 }
 
 .box-mission h3 {
@@ -22,7 +23,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10px;
+  margin: 0 20px 0 30px;
 }
 
 .date-local-info {
@@ -30,19 +31,21 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 200px;
-  margin-left: 20px;
 }
 
 .box-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 80px;
-  margin-right: 30px;
+  margin: 0 10px;
 }
 
-
 .box-info p {
-  margin-left: 20px;
+  font-size: 15px;
+}
+
+.hidden-box {
+  width: 20px;
+  height: 100%;
 }

@@ -14,15 +14,18 @@ function Mission({ interStelarMission }: props) {
         <div className='date-local-info'>
           <div className='box-info'>
             <img src='./date.png' />
+            <span className='hidden-box'></span>
             <p>{ interStelarMission.year }</p>
           </div>
           <div className='box-info'>
             <img src='./local.png' />
+            <span className='hidden-box'></span>
             <p>{ interStelarMission.country }</p>
           </div>
         </div>
         <div className='box-info'>
           <img src='./mission.png' />
+          <span className='hidden-box'></span>
           <p>{ interStelarMission.planet }</p>
         </div>
       </div>
